@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "obj2str",
+    "obj2str_derive",
+    "tests",
+]
+resolver = "2"

@@ -1,0 +1,13 @@
+[package]
+name = "tests"
+version = "1.0.0"
+edition = "2021"
+publish = false
+
+[dev-dependencies]
+obj2str = { path = "../obj2str" }
+obj2str_derive = { path = "../obj2str_derive" }
+
+[[test]]
+name = "test"
+path = "src/test.rs"
